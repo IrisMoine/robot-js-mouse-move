@@ -1,0 +1,36 @@
+<html>
+  <head>
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="script-src 'self' 'unsafe-inline'; "
+    />
+    <title>Electron App</title>
+
+    <script src="./js/AppRobot.js"></script>
+
+    <style>
+      /* button:hover {
+        background-color: red;
+      } */
+
+      .circle {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        background-color: black;
+        margin: 2px;
+        display: inline-block;
+        transform: scale(1, 1);
+        transition: transform 0.5s;
+        z-index: 0;
+      }
+
+      .circle:hover {
+        background-color: blueviolet;
+        transform: scale(5, 2);
+        z-index: 300;
+      }
+    </style>
+  </head>
+  <body></body>
+</html>
