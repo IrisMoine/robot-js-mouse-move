@@ -16,7 +16,7 @@ function createWindow() {
   // ici on charge notre page html
   //win.loadFile("index.html");
   win.loadFile("indexRobot.html");
-  //   win.setFullScreen(true);
+    win.setFullScreen(true);
   //win.maximize();
 }
 
